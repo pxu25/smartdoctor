@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- upload the csv file as input take the input as the varial-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Update the clinical lab results</title>
+	<link rel="icon" type="image/x-icon" href="../image/sd-logo.ico">
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+</head>
+
+<body background="../image/BGqvU48.png">
+
+	<div class="navbar">
+		<a href="../index.html">Home</a>
+		<a href="../share/contactus.html">Contact Us</a>
+		<div class="dropdown">
+			<button class="dropbtn">Services 
+			<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			<a href="../search/inquiry.php">Search Patient</a>
+			<a href="../newpatient/newpatient.html">Add a New Patient</a>
+			<a href="#">Disease Prediction</a>
+			</div>
+		</div> 
+	</div>
+
+	<!--insertion for new patient ID form-->
+	<div class="newpatientform">
+		<form class="ID" action="add.php" method="post">
+		<!--name-->
+			<label>First Name: &nbsp&nbsp</label>
+			<input type="text" name="firstname" id="firstname" value="Peng" required><br>
+			<label>Last Name: &nbsp&nbsp</label>
+			<input type="text" name="lastname" id="lastname" value="Xu" required><br>
+			<label>Sex: &nbsp&nbsp</label>
+			<input type="text" name="sex" id="sex" value="F" required><br>
+			<label>DOB: &nbsp&nbsp</label>
+			<input type="date" name="DOB" id="DOB" required><br>
+			<!--address-->
+			<label>Address: &nbsp&nbsp</label>
+			<input type="text" name="address" id="address" value="1234 Rd" ><br>
+			<label>City: &nbsp&nbsp</label>
+			<input type="text" name="city" id="city" value="Nashville"><br>
+			<label>State(Postal Code): &nbsp&nbsp</label>
+			<input type="text" name="state" id="state" value="TN" ><br>
+			<label>Zipcode: &nbsp&nbsp</label>
+			<input type="number" name="zip" id="zip" value="37232"><br>
+			<!--contact-->
+			<label>Homephone: &nbsp&nbsp</label>
+			<input type="text" name="homephone" id="homephone" value="6151234567"><br>
+			<label>Cellhone: &nbsp&nbsp</label>
+			<input type="text" name="cellphone" id="cellphone" ><br>
+			<label>email: &nbsp&nbsp</label>
+			<input type="email" name="email" id="email" value="firstname.lastname@host.com"><br>
+			<!--submit-->
+			<input type="submit" value="Add">
+			<input type="reset"	 value="reset">
+	</div>
+
+	<footer>
+		<p> &copy; Peng Xu 2018  &nbsp&nbsp
+		  <a href="https://github.com/pxu25" target="_blank" title="myGithub">
+			  <img src="../image/GitHub-Mark-120px-plus.png" alt="github.com/pxu25"
+					width="30" height="30">
+		  </a>
+		</p>
+	  </footer>
+</body>
+</html>
+
+
+

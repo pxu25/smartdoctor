@@ -1,0 +1,157 @@
+body {
+  width: 920px;
+}
+h1 {margin: auto;}
+h3 {margin-left: 400px;}
+h4 {margin-bottom: 0px;margin-left: 15px;}
+
+p#home-body-quote1 {
+  color: black;
+  font-size:30px;
+}
+
+/*Menu rule*/
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial, Helvetica, sans-serif
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color:black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+form.ID {
+    position: fixed;
+    margin: auto;
+}
+
+
+div.hp-body-words {
+  color: #0055DD
+}
+
+
+/*Search patient*/
+div.quaryform {
+  left: 650px;
+  font-size: 25px;
+  width: 900px;
+}
+span#searchform {
+  position: fixed;
+  left: 700px;
+  top: 150px;
+  font-size: 30px;
+}
+form.form-individual{
+  position: fixed;
+  left:700px;
+  width:300px;
+}
+/*search results*/
+span.report{font: size 50; left:120px; }
+
+div.content {
+  width: 920px;
+  left: 300px;
+  margin: 20px;
+}
+/* Lists */
+table {
+  vertical-align: top;
+  border-collapse: collapse;
+}
+table.list {
+  width: 900px;
+  margin-bottom: 20px;
+  left: 300px;
+}
+table.list tr td {
+  border: 1px solid #999999;
+}
+table.list tr th {
+  border: 1px solid #0055DD;
+  background: #0055DD;
+  color: white;
+  text-align: left;
+}
+/*new patient*/
+div.newpatientform{
+  position: fixed;
+  top: 100px;
+  left: 700px;
+  width: 300px;
+}
+form.ID input {
+  width: 100%
+}
+form.ID input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*contact*/
+div.contactus {display: block;left: 500px;}
+span > H4 { left:100px;}
+
+/*footer style*/
+footer {
+  position: fixed;
+  width: 940px;
+  height: 30px;
+  bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;  
+}
+footer p {
+  position: fixed;
+  left:100px;
+}
